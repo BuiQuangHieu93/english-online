@@ -1,455 +1,503 @@
-export const vocabulary = {
-  Accidents: [
-    {
-      english: "car",
-      vietnamese: "xe hơi",
-      sentence: "The car accident was serious.",
-    },
-    {
-      english: "hurt",
-      vietnamese: "bị thương",
-      sentence: "He got hurt in the accident.",
-    },
-    {
-      english: "help",
-      vietnamese: "giúp đỡ",
-      sentence: "Call for help after an accident.",
-    },
-    {
-      english: "ambulance",
-      vietnamese: "xe cứu thương",
-      sentence: "The ambulance arrived quickly.",
-    },
-    {
-      english: "injury",
-      vietnamese: "chấn thương",
-      sentence: "She had a minor injury.",
-    },
-    {
-      english: "safe",
-      vietnamese: "an toàn",
-      sentence: "It is important to stay safe.",
-    },
-    {
-      english: "emergency",
-      vietnamese: "tình trạng khẩn cấp",
-      sentence: "He called the emergency number.",
-    },
-    {
-      english: "police",
-      vietnamese: "cảnh sát",
-      sentence: "The police arrived at the scene.",
-    },
-    {
-      english: "fire",
-      vietnamese: "lửa",
-      sentence: "The fire started after the crash.",
-    },
-    {
-      english: "rescue",
-      vietnamese: "cứu",
-      sentence: "They were rescued from the car.",
-    },
-    {
-      english: "doctor",
-      vietnamese: "bác sĩ",
-      sentence: "The doctor treated the injuries.",
-    },
-    {
-      english: "blood",
-      vietnamese: "máu",
-      sentence: "There was blood on the road.",
-    },
-    {
-      english: "pain",
-      vietnamese: "đau đớn",
-      sentence: "He felt pain after the accident.",
-    },
-    {
-      english: "dangerous",
-      vietnamese: "nguy hiểm",
-      sentence: "Driving in the rain is dangerous.",
-    },
-    {
-      english: "crash",
-      vietnamese: "va chạm",
-      sentence: "The crash caused a lot of damage.",
-    },
-    {
-      english: "accident",
-      vietnamese: "tai nạn",
-      sentence: "The accident happened last night.",
-    },
-    {
-      english: "hospital",
-      vietnamese: "bệnh viện",
-      sentence: "He was taken to the hospital.",
-    },
-    {
-      english: "broken",
-      vietnamese: "gãy",
-      sentence: "He had a broken arm after the fall.",
-    },
-    {
-      english: "fall",
-      vietnamese: "ngã",
-      sentence: "She had a bad fall on the ice.",
-    },
-    {
-      english: "seatbelt",
-      vietnamese: "dây an toàn",
-      sentence: "Always wear your seatbelt.",
-    },
-  ],
-  Actors: [
-    {
-      english: "performance",
-      vietnamese: "buổi biểu diễn",
-      sentence: "His performance in the movie was outstanding.",
-    },
-    {
-      english: "director",
-      vietnamese: "đạo diễn",
-      sentence: "The director guided the actors during filming.",
-    },
-    {
-      english: "script",
-      vietnamese: "kịch bản",
-      sentence: "She memorized her lines from the script.",
-    },
-    {
-      english: "audition",
-      vietnamese: "buổi thử vai",
-      sentence: "He went to an audition for the role of Hamlet.",
-    },
-    {
-      english: "stage",
-      vietnamese: "sân khấu",
-      sentence: "The actor took a bow on the stage.",
-    },
-  ],
-  Advice: [
-    {
-      english: "suggest",
-      vietnamese: "đề nghị",
-      sentence: "I suggest you talk to a professional.",
-    },
-    {
-      english: "recommend",
-      vietnamese: "khuyên",
-      sentence: "She recommended trying a new strategy.",
-    },
-    {
-      english: "advice",
-      vietnamese: "lời khuyên",
-      sentence: "He gave me some good advice.",
-    },
-    {
-      english: "consult",
-      vietnamese: "tham khảo",
-      sentence: "You should consult a doctor.",
-    },
-    {
-      english: "warn",
-      vietnamese: "cảnh báo",
-      sentence: "She warned me about the risks.",
-    },
-  ],
-  Advertising: [
-    {
-      english: "campaign",
-      vietnamese: "chiến dịch",
-      sentence: "The advertising campaign was very successful.",
-    },
-    {
-      english: "brand",
-      vietnamese: "thương hiệu",
-      sentence: "They are building a new brand identity.",
-    },
-    {
-      english: "slogan",
-      vietnamese: "khẩu hiệu",
-      sentence: "The company's slogan is catchy.",
-    },
-    {
-      english: "target audience",
-      vietnamese: "đối tượng mục tiêu",
-      sentence: "They focused on the target audience.",
-    },
-    {
-      english: "billboard",
-      vietnamese: "bảng quảng cáo",
-      sentence: "The billboard displayed a bright advertisement.",
-    },
-  ],
-  Airplanes: [
-    {
-      english: "pilot",
-      vietnamese: "phi công",
-      sentence: "The pilot announced the flight delay.",
-    },
-    {
-      english: "cabin",
-      vietnamese: "buồng lái",
-      sentence: "The cabin was comfortable for passengers.",
-    },
-    {
-      english: "turbulence",
-      vietnamese: "nhiễu động",
-      sentence: "The flight experienced some turbulence.",
-    },
-    {
-      english: "landing",
-      vietnamese: "hạ cánh",
-      sentence: "The plane made a smooth landing.",
-    },
-    {
-      english: "takeoff",
-      vietnamese: "cất cánh",
-      sentence: "Passengers must fasten their seat belts before takeoff.",
-    },
-  ],
-  Airports: [
-    {
-      english: "terminal",
-      vietnamese: "ga",
-      sentence: "The airport terminal was busy with travelers.",
-    },
-    {
-      english: "security",
-      vietnamese: "an ninh",
-      sentence: "Airport security is very strict.",
-    },
-    {
-      english: "baggage",
-      vietnamese: "hành lý",
-      sentence: "Please check your baggage at the counter.",
-    },
-    {
-      english: "departure",
-      vietnamese: "khởi hành",
-      sentence: "The departure gate is on the right.",
-    },
-    {
-      english: "arrival",
-      vietnamese: "đến nơi",
-      sentence: "We waited at the arrival lounge.",
-    },
-  ],
-  Aliens: [
-    {
-      english: "spaceship",
-      vietnamese: "tàu vũ trụ",
-      sentence: "The alien spaceship landed in the field.",
-    },
-    {
-      english: "extraterrestrial",
-      vietnamese: "ngoài hành tinh",
-      sentence: "They believe extraterrestrial life exists.",
-    },
-    {
-      english: "abduction",
-      vietnamese: "bắt cóc",
-      sentence: "There were rumors of alien abduction.",
-    },
-    {
-      english: "encounter",
-      vietnamese: "chạm trán",
-      sentence: "He claimed to have had an alien encounter.",
-    },
-    {
-      english: "UFO",
-      vietnamese: "vật thể bay không xác định",
-      sentence: "A UFO was spotted in the night sky.",
-    },
-  ],
-  Alcohol: [
-    {
-      english: "beer",
-      vietnamese: "bia",
-      sentence: "He ordered a glass of beer.",
-    },
-    {
-      english: "wine",
-      vietnamese: "rượu vang",
-      sentence: "They served red wine with dinner.",
-    },
-    {
-      english: "intoxicated",
-      vietnamese: "say rượu",
-      sentence: "He was intoxicated and needed help.",
-    },
-    {
-      english: "distillery",
-      vietnamese: "nhà máy chưng cất",
-      sentence: "The distillery is known for its whiskey.",
-    },
-    {
-      english: "cocktail",
-      vietnamese: "rượu pha",
-      sentence: "She made a delicious cocktail.",
-    },
-  ],
-  Animals: [
-    {
-      english: "lion",
-      vietnamese: "sư tử",
-      sentence: "The lion is known as the king of the jungle.",
-    },
-    {
-      english: "elephant",
-      vietnamese: "voi",
-      sentence: "Elephants are the largest land animals.",
-    },
-    {
-      english: "zebra",
-      vietnamese: "ngựa vằn",
-      sentence: "Zebras have distinctive black and white stripes.",
-    },
-    {
-      english: "giraffe",
-      vietnamese: "hươu cao cổ",
-      sentence: "The giraffe has a very long neck.",
-    },
-    {
-      english: "dolphin",
-      vietnamese: "cá heo",
-      sentence: "Dolphins are intelligent sea creatures.",
-    },
-  ],
-  "Anti-Aging Creams": [
-    {
-      english: "wrinkle",
-      vietnamese: "nếp nhăn",
-      sentence: "This cream reduces wrinkles.",
-    },
-    {
-      english: "moisturizer",
-      vietnamese: "kem dưỡng ẩm",
-      sentence: "Apply a good moisturizer daily.",
-    },
-    {
-      english: "serum",
-      vietnamese: "tinh chất",
-      sentence: "Serums can penetrate deeper layers of skin.",
-    },
-    {
-      english: "collagen",
-      vietnamese: "collagen",
-      sentence: "Collagen is essential for skin elasticity.",
-    },
-    {
-      english: "rejuvenate",
-      vietnamese: "trẻ hóa",
-      sentence: "This product claims to rejuvenate the skin.",
-    },
-  ],
-  Apartments: [
-    {
-      english: "lease",
-      vietnamese: "hợp đồng thuê",
-      sentence: "He signed a lease for the new apartment.",
-    },
-    {
-      english: "tenant",
-      vietnamese: "người thuê nhà",
-      sentence: "The tenant pays rent on the first of every month.",
-    },
-    {
-      english: "furnished",
-      vietnamese: "đầy đủ nội thất",
-      sentence: "The apartment comes fully furnished.",
-    },
-    {
-      english: "landlord",
-      vietnamese: "chủ nhà",
-      sentence: "The landlord is responsible for repairs.",
-    },
-    {
-      english: "utility",
-      vietnamese: "tiện ích",
-      sentence: "Utilities are included in the rent.",
-    },
-  ],
-  Art: [
-    {
-      english: "painting",
-      vietnamese: "bức tranh",
-      sentence: "The painting was sold for a million dollars.",
-    },
-    {
-      english: "sculpture",
-      vietnamese: "tác phẩm điêu khắc",
-      sentence: "The sculpture was made from marble.",
-    },
-    {
-      english: "exhibit",
-      vietnamese: "triển lãm",
-      sentence: "The museum has a new exhibit.",
-    },
-    {
-      english: "gallery",
-      vietnamese: "phòng trưng bày",
-      sentence: "She visited an art gallery.",
-    },
-    {
-      english: "canvas",
-      vietnamese: "vải bố",
-      sentence: "The artist painted on a large canvas.",
-    },
-  ],
-  Autumn: [
-    {
-      english: "leaves",
-      vietnamese: "lá cây",
-      sentence: "The leaves turn red in autumn.",
-    },
-    {
-      english: "harvest",
-      vietnamese: "thu hoạch",
-      sentence: "Farmers are busy with the harvest.",
-    },
-    {
-      english: "pumpkin",
-      vietnamese: "bí ngô",
-      sentence: "Pumpkin pies are popular in autumn.",
-    },
-    {
-      english: "sweater",
-      vietnamese: "áo len",
-      sentence: "She wore a cozy sweater in the chilly weather.",
-    },
-    {
-      english: "crisp",
-      vietnamese: "mát mẻ",
-      sentence: "The air is crisp and cool in autumn.",
-    },
-  ],
-  Avatars: [
-    {
-      english: "virtual",
-      vietnamese: "ảo",
-      sentence: "She created a virtual avatar for the game.",
-    },
-    {
-      english: "customize",
-      vietnamese: "tùy chỉnh",
-      sentence: "You can customize your avatar's appearance.",
-    },
-    {
-      english: "profile",
-      vietnamese: "hồ sơ",
-      sentence: "The avatar appears on the user's profile.",
-    },
-    {
-      english: "animation",
-      vietnamese: "hoạt hình",
-      sentence: "The avatar's animation was smooth.",
-    },
-    {
-      english: "representation",
-      vietnamese: "đại diện",
-      sentence: "The avatar is a digital representation of a person.",
-    },
-  ],
-};
+export const vocabularies = [
+  {
+    topic: "Accidents",
+    vocabulary: [
+      {
+        english: "car",
+        vietnamese: "xe hơi",
+        ipa: "/kɑːr/",
+        sentence: "The car accident was serious.",
+      },
+      {
+        english: "hurt",
+        vietnamese: "bị thương",
+        ipa: "/hɜːrt/",
+        sentence: "He got hurt in the accident.",
+      },
+      {
+        english: "help",
+        vietnamese: "giúp đỡ",
+        ipa: "/hɛlp/",
+        sentence: "Call for help after an accident.",
+      },
+      {
+        english: "ambulance",
+        vietnamese: "xe cứu thương",
+        ipa: "/ˈæmbjʊləns/",
+        sentence: "The ambulance arrived quickly.",
+      },
+      {
+        english: "injury",
+        vietnamese: "chấn thương",
+        ipa: "/ˈɪndʒəri/",
+        sentence: "She had a minor injury.",
+      },
+      {
+        english: "safe",
+        vietnamese: "an toàn",
+        ipa: "/seɪf/",
+        sentence: "It is important to stay safe.",
+      },
+      {
+        english: "emergency",
+        vietnamese: "tình trạng khẩn cấp",
+        ipa: "/ɪˈmɜːrdʒənsi/",
+        sentence: "He called the emergency number.",
+      },
+      {
+        english: "police",
+        vietnamese: "cảnh sát",
+        ipa: "/pəˈliːs/",
+        sentence: "The police arrived at the scene.",
+      },
+      {
+        english: "fire",
+        vietnamese: "lửa",
+        ipa: "/faɪər/",
+        sentence: "The fire started after the crash.",
+      },
+      {
+        english: "rescue",
+        vietnamese: "cứu",
+        ipa: "/ˈrɛskjuː/",
+        sentence: "They were rescued from the car.",
+      },
+      {
+        english: "doctor",
+        vietnamese: "bác sĩ",
+        ipa: "/ˈdɒktər/",
+        sentence: "The doctor treated the injuries.",
+      },
+      {
+        english: "blood",
+        vietnamese: "máu",
+        ipa: "/blʌd/",
+        sentence: "There was blood on the road.",
+      },
+      {
+        english: "pain",
+        vietnamese: "đau đớn",
+        ipa: "/peɪn/",
+        sentence: "He felt pain after the accident.",
+      },
+      {
+        english: "dangerous",
+        vietnamese: "nguy hiểm",
+        ipa: "/ˈdeɪndʒərəs/",
+        sentence: "Driving in the rain is dangerous.",
+      },
+      {
+        english: "crash",
+        vietnamese: "va chạm",
+        ipa: "/kræʃ/",
+        sentence: "The crash caused a lot of damage.",
+      },
+      {
+        english: "accident",
+        vietnamese: "tai nạn",
+        ipa: "/ˈæksɪdənt/",
+        sentence: "The accident happened last night.",
+      },
+      {
+        english: "hospital",
+        vietnamese: "bệnh viện",
+        ipa: "/ˈhɒspɪtl/",
+        sentence: "He was taken to the hospital.",
+      },
+      {
+        english: "broken",
+        vietnamese: "gãy",
+        ipa: "/ˈbrəʊkən/",
+        sentence: "He had a broken arm after the fall.",
+      },
+      {
+        english: "fall",
+        vietnamese: "ngã",
+        ipa: "/fɔːl/",
+        sentence: "She had a bad fall on the ice.",
+      },
+      {
+        english: "seatbelt",
+        vietnamese: "dây an toàn",
+        ipa: "/ˈsiːtbɛlt/",
+        sentence: "Always wear your seatbelt.",
+      },
+    ],
+  },
+  {
+    topic: "Actors",
+    vocabulary: [
+      {
+        english: "actor",
+        vietnamese: "diễn viên",
+        ipa: "/ˈæktər/",
+        sentence: "The actor received an award for his performance.",
+      },
+      {
+        english: "director",
+        vietnamese: "đạo diễn",
+        ipa: "/dɪˈrɛktər/",
+        sentence: "The director is known for his unique style.",
+      },
+      {
+        english: "script",
+        vietnamese: "kịch bản",
+        ipa: "/skrɪpt/",
+        sentence: "She read the script before the rehearsal.",
+      },
+      {
+        english: "role",
+        vietnamese: "vai diễn",
+        ipa: "/roʊl/",
+        sentence: "He played a leading role in the film.",
+      },
+      {
+        english: "performance",
+        vietnamese: "màn trình diễn",
+        ipa: "/pərˈfɔːrməns/",
+        sentence: "Her performance was highly praised.",
+      },
+      {
+        english: "audition",
+        vietnamese: "buổi thử vai",
+        ipa: "/ɔːˈdɪʃən/",
+        sentence: "He went to an audition for the new play.",
+      },
+      {
+        english: "stage",
+        vietnamese: "sân khấu",
+        ipa: "/steɪdʒ/",
+        sentence: "The actors performed on stage in front of a live audience.",
+      },
+      {
+        english: "scene",
+        vietnamese: "cảnh",
+        ipa: "/siːn/",
+        sentence: "The dramatic scene was very emotional.",
+      },
+      {
+        english: "casting",
+        vietnamese: "tuyển chọn diễn viên",
+        ipa: "/ˈkæstɪŋ/",
+        sentence: "The casting for the new movie is underway.",
+      },
+      {
+        english: "rehearsal",
+        vietnamese: "buổi tập dượt",
+        ipa: "/rɪˈhɜːrsl/",
+        sentence: "They had a rehearsal for the upcoming play.",
+      },
+      {
+        english: "dialogue",
+        vietnamese: "đối thoại",
+        ipa: "/ˈdaɪəlɒɡ/",
+        sentence: "The dialogue in the movie was very engaging.",
+      },
+      {
+        english: "monologue",
+        vietnamese: "độc thoại",
+        ipa: "/ˈmɒnəlɒɡ/",
+        sentence: "He delivered a powerful monologue during the performance.",
+      },
+      {
+        english: "producer",
+        vietnamese: "nhà sản xuất",
+        ipa: "/prəˈdjuːsər/",
+        sentence: "The producer worked closely with the director.",
+      },
+      {
+        english: "film",
+        vietnamese: "phim",
+        ipa: "/fɪlm/",
+        sentence: "They shot a film in several locations.",
+      },
+      {
+        english: "screenplay",
+        vietnamese: "kịch bản phim",
+        ipa: "/ˈskriːnpleɪ/",
+        sentence: "The screenplay was adapted from a novel.",
+      },
+      {
+        english: "award",
+        vietnamese: "giải thưởng",
+        ipa: "/əˈwɔːrd/",
+        sentence: "She won an award for Best Actress.",
+      },
+      {
+        english: "trailer",
+        vietnamese: "đoạn phim quảng cáo",
+        ipa: "/ˈtreɪlər/",
+        sentence: "The trailer for the movie was released last week.",
+      },
+      {
+        english: "stunt",
+        vietnamese: "kỹ xảo",
+        ipa: "/stʌnt/",
+        sentence: "The actor performed his own stunts in the film.",
+      },
+      {
+        english: "cast",
+        vietnamese: "dàn diễn viên",
+        ipa: "/kæst/",
+        sentence: "The cast includes several well-known actors.",
+      },
+      {
+        english: "set",
+        vietnamese: "bối cảnh",
+        ipa: "/sɛt/",
+        sentence: "The set was designed to look like a historical palace.",
+      },
+      {
+        english: "scene",
+        vietnamese: "cảnh phim",
+        ipa: "/siːn/",
+        sentence: "They shot the final scene yesterday.",
+      },
+      {
+        english: "ensemble",
+        vietnamese: "dàn diễn viên phụ",
+        ipa: "/ɒnˈsɒmbl/",
+        sentence: "The ensemble cast delivered a fantastic performance.",
+      },
+      {
+        english: "rehearse",
+        vietnamese: "tập dượt",
+        ipa: "/rɪˈhɜːrs/",
+        sentence: "The actors rehearse their lines before each performance.",
+      },
+      {
+        english: "costume",
+        vietnamese: "trang phục",
+        ipa: "/ˈkɒstjuːm/",
+        sentence: "She wore a beautiful costume for her role.",
+      },
+      {
+        english: "makeup",
+        vietnamese: "trang điểm",
+        ipa: "/ˈmeɪkʌp/",
+        sentence: "The makeup artist prepared the actors for the scene.",
+      },
+      {
+        english: "theater",
+        vietnamese: "nhà hát",
+        ipa: "/ˈθiːətər/",
+        sentence: "The play was performed at the local theater.",
+      },
+      {
+        english: "audience",
+        vietnamese: "khán giả",
+        ipa: "/ˈɔːdiəns/",
+        sentence: "The audience applauded the actors after the show.",
+      },
+    ],
+  },
+  {
+    topic: "Advice",
+    vocabulary: [
+      {
+        english: "suggest",
+        vietnamese: "đề nghị",
+        ipa: "/səˈdʒɛst/",
+        sentence: "I suggest taking a break if you're feeling tired.",
+      },
+      {
+        english: "recommend",
+        vietnamese: "khuyến nghị",
+        ipa: "/ˌrɛkəˈmɛnd/",
+        sentence: "I recommend this book for anyone interested in history.",
+      },
+      {
+        english: "consider",
+        vietnamese: "cân nhắc",
+        ipa: "/kənˈsɪdər/",
+        sentence: "Consider all your options before making a decision.",
+      },
+      {
+        english: "consult",
+        vietnamese: "tham khảo",
+        ipa: "/kənˈsʌlt/",
+        sentence: "You should consult a specialist for this issue.",
+      },
+      {
+        english: "listen",
+        vietnamese: "lắng nghe",
+        ipa: "/ˈlɪsən/",
+        sentence: "Always listen to your instincts.",
+      },
+      {
+        english: "clarify",
+        vietnamese: "làm rõ",
+        ipa: "/ˈklærɪfaɪ/",
+        sentence: "Please clarify your instructions before proceeding.",
+      },
+      {
+        english: "advise",
+        vietnamese: "khuyên",
+        ipa: "/ədˈvaɪz/",
+        sentence: "I advise you to follow the guidelines closely.",
+      },
+      {
+        english: "avoid",
+        vietnamese: "tránh",
+        ipa: "/əˈvɔɪd/",
+        sentence: "Avoid making hasty decisions.",
+      },
+      {
+        english: "balance",
+        vietnamese: "cân bằng",
+        ipa: "/ˈbæləns/",
+        sentence: "Balance your work and personal life effectively.",
+      },
+      {
+        english: "organize",
+        vietnamese: "tổ chức",
+        ipa: "/ˈɔːrɡənaɪz/",
+        sentence: "Organize your tasks to be more efficient.",
+      },
+      {
+        english: "prioritize",
+        vietnamese: "ưu tiên",
+        ipa: "/praɪˈɒrɪtaɪz/",
+        sentence: "Prioritize your most important tasks.",
+      },
+      {
+        english: "plan",
+        vietnamese: "lên kế hoạch",
+        ipa: "/plæn/",
+        sentence: "Plan your schedule carefully to avoid conflicts.",
+      },
+      {
+        english: "seek",
+        vietnamese: "tìm kiếm",
+        ipa: "/siːk/",
+        sentence: "Seek advice from experienced professionals.",
+      },
+      {
+        english: "research",
+        vietnamese: "nghiên cứu",
+        ipa: "/rɪˈsɜːrtʃ/",
+        sentence: "Research the topic thoroughly before presenting.",
+      },
+      {
+        english: "evaluate",
+        vietnamese: "đánh giá",
+        ipa: "/ɪˈvæljueɪt/",
+        sentence: "Evaluate your progress regularly.",
+      },
+      {
+        english: "review",
+        vietnamese: "xem xét lại",
+        ipa: "/rɪˈvjuː/",
+        sentence: "Review your notes before the meeting.",
+      },
+      {
+        english: "prepare",
+        vietnamese: "chuẩn bị",
+        ipa: "/prɪˈpɛər/",
+        sentence: "Prepare for the presentation in advance.",
+      },
+      {
+        english: "follow",
+        vietnamese: "tuân theo",
+        ipa: "/ˈfɒloʊ/",
+        sentence: "Follow the instructions carefully.",
+      },
+      {
+        english: "implement",
+        vietnamese: "thực hiện",
+        ipa: "/ˈɪmplɪˌmɛnt/",
+        sentence: "Implement the changes as planned.",
+      },
+      {
+        english: "discuss",
+        vietnamese: "thảo luận",
+        ipa: "/dɪˈskʌs/",
+        sentence: "Discuss your ideas with your team.",
+      },
+      {
+        english: "reflect",
+        vietnamese: "suy ngẫm",
+        ipa: "/rɪˈflɛkt/",
+        sentence: "Reflect on your experiences to learn and grow.",
+      },
+      {
+        english: "take",
+        vietnamese: "nhận",
+        ipa: "/teɪk/",
+        sentence: "Take your time to make the best decision.",
+      },
+      {
+        english: "decide",
+        vietnamese: "quyết định",
+        ipa: "/dɪˈsaɪd/",
+        sentence: "Decide based on the information available.",
+      },
+      {
+        english: "ask",
+        vietnamese: "hỏi",
+        ipa: "/æsk/",
+        sentence: "Ask questions if you're unsure about something.",
+      },
+      {
+        english: "acknowledge",
+        vietnamese: "thừa nhận",
+        ipa: "/əkˈnɒlɪdʒ/",
+        sentence: "Acknowledge any mistakes and learn from them.",
+      },
+      {
+        english: "adopt",
+        vietnamese: "áp dụng",
+        ipa: "/əˈdɒpt/",
+        sentence: "Adopt new methods to improve efficiency.",
+      },
+      {
+        english: "comply",
+        vietnamese: "tuân thủ",
+        ipa: "/kəmˈplaɪ/",
+        sentence: "Comply with the regulations to avoid issues.",
+      },
+      {
+        english: "contemplate",
+        vietnamese: "suy nghĩ",
+        ipa: "/ˈkɒntəmˌpleɪt/",
+        sentence: "Contemplate the possible outcomes before acting.",
+      },
+      {
+        english: "considerate",
+        vietnamese: "chu đáo",
+        ipa: "/kənˈsɪdərət/",
+        sentence: "Be considerate of others' opinions.",
+      },
+      {
+        english: "negotiation",
+        vietnamese: "đàm phán",
+        ipa: "/nɪˌɡoʊʃiˈeɪʃən/",
+        sentence: "Effective negotiation can resolve many conflicts.",
+      },
+      {
+        english: "network",
+        vietnamese: "mạng lưới",
+        ipa: "/ˈnɛtwɜːrk/",
+        sentence: "Network with others to expand your opportunities.",
+      },
+      {
+        english: "engage",
+        vietnamese: "tham gia",
+        ipa: "/ɪnˈɡeɪdʒ/",
+        sentence: "Engage in discussions to better understand the issues.",
+      },
+      {
+        english: "guide",
+        vietnamese: "hướng dẫn",
+        ipa: "/ɡaɪd/",
+        sentence: "Use the guide to help you through the process.",
+      },
+      {
+        english: "solve",
+        vietnamese: "giải quyết",
+        ipa: "/sɒlv/",
+        sentence: "Solve problems promptly to avoid delays.",
+      },
+    ],
+  },
+];
