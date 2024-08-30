@@ -74,7 +74,6 @@ const TopicComponent = () => {
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             slidesPerView={1}
             spaceBetween={30}
-            navigation
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
             onSwiper={(swiper) => console.log(swiper)}
