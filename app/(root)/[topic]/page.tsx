@@ -67,7 +67,7 @@ const TopicComponent = () => {
     <div className="p-4 sm:p-10 md:p-20 w-full flex items-center justify-center min-h-screen">
       {topicData ? (
         <div className="text-center w-full max-w-3xl">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl pb-3 sm:pb-5">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl pb-3 sm:pb-12">
             {topicData.topic}
           </h1>
           <Swiper
