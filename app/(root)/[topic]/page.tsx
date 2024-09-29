@@ -67,13 +67,16 @@ const TopicComponent = () => {
   };
 
   const handleConvert = async (text: string) => {
-    const response = await fetch("http://127.0.0.1:5000/convert-to-ipa", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json; charset=UTF-8",
-      },
-      body: JSON.stringify({ transcript: text }),
-    });
+    const response = await fetch(
+      "https://english-online-backend.vercel.app/convert-to-ipa",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json; charset=UTF-8",
+        },
+        body: JSON.stringify({ transcript: text }),
+      }
+    );
 
     const data = await response.json();
     setIpa(data.ipa);
