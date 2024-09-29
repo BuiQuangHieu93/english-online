@@ -23,6 +23,11 @@ def convert_to_ipa():
         return jsonify({'ipa': ipa_transcription })
     except UnicodeDecodeError as e:
         return jsonify({'error': f'UnicodeDecodeError: {str(e)}'}), 500
+    
+@app.route("/")
+def home():
+    return "hello world"
+
 
 if __name__ == '__main__':
     app.run(debug=True)
