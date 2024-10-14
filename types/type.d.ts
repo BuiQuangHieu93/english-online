@@ -6,6 +6,17 @@ export interface VocabularyItem {
   sentence: string;
 }
 
+export interface VocabularyItemReturn {
+  english: string;
+  ipa: string;
+  vietnamese: string;
+  sentence: string;
+  sentence_to_ipa: string;
+}
+
+export interface VocabularyItemReturnList {
+  vocabulary: VocabularyItemReturn[];
+}
 // Define the interface for each topic
 export interface Topic {
   topic: string;
